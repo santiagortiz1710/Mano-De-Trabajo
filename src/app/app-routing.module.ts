@@ -10,7 +10,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { PagePriComponent } from './Components/page-pri/page-pri.component';
 import { DetailsComponent } from './Components/details/details.component';
-import { DetailEmpleadorComponent } from './Components/details-empleador/details-empleador.component';
+import { DetailsEmpleadorComponent } from './Components/details-empleador/details-empleador.component';
 
 
 
@@ -21,6 +21,7 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'home', component: PagePriComponent},
   {path: 'details', component: DetailsComponent},
+  {path: 'datailsempleador', component: DetailsEmpleadorComponent},
 
   {path: '404', component:NotfoundComponent},
   {path: '**', redirectTo: '404', pathMatch: 'full'},
