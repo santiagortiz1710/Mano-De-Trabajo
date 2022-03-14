@@ -21,7 +21,6 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'home', component: PagePriComponent},
   {path: 'details', component: DetailsComponent},
-  {path: 'detail-empleador', component: DetailsEmpleadorComponent}
 
   {path: '404', component:NotfoundComponent},
   {path: '**', redirectTo: '404', pathMatch: 'full'},
