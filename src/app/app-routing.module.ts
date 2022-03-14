@@ -9,6 +9,7 @@ import { PerfilEmpleadorComponent } from './Components/perfil-empleador/perfil-e
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { PagePriComponent } from './Components/page-pri/page-pri.component';
+import { DetailsComponent } from './Components/details/details.component';
 
 
 
@@ -18,7 +19,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'home', component: PagePriComponent},
-
+  {path: 'details', component: DetailsComponent},
 
   {path: '404', component:NotfoundComponent},
   {path: '**', redirectTo: '404', pathMatch: 'full'},

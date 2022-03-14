@@ -11,6 +11,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { PagePriComponent } from './Components/page-pri/page-pri.component';
+import { DetailsComponent } from './Components/details/details.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PagePriComponent } from './Components/page-pri/page-pri.component';
     LoginComponent,
     RegisterComponent,
     NotfoundComponent,
-    PagePriComponent
+    PagePriComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
