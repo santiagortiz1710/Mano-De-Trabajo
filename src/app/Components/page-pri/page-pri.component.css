@@ -1,0 +1,31 @@
+
+.temp {
+    background-color: blue;
+    box-sizing: border-box;
+    height: 5rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+legend {
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+}
+.pribg{
+    background-image: url("https://factorial.fr/wp-content/uploads/2020/10/04113434/herramientas-para-home-office.jpg");
+    background-size: cover;
+    height: 45rem;    
+}
+
+.pribg:before {
+content:'';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 50rem; 
+background-color: rgba(0,0,0,0.6);
+}
+.Up-bac{
+position: relative
+}
