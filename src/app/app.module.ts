@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PerfilEmpleadorComponent } from './Components/perfil-empleador/perfil-empleador.component';
 import { HomeComponent } from './Components/home/home.component';
+import { FooterComponent } from './Components/footer/footer.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
@@ -26,6 +27,7 @@ import { DetailsEmpleadorComponent } from './Components/details-empleador/detail
     PagePriComponent,
     DetailsComponent,
     DetailsEmpleadorComponent,
+
   ],
   imports: [
     BrowserModule,
