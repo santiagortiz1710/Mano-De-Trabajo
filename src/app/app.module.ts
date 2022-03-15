@@ -12,8 +12,7 @@ import { RegisterComponent } from './Components/register/register.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { PagePriComponent } from './Components/page-pri/page-pri.component';
 import { DetailsComponent } from './Components/details/details.component';
-import { DetailsEmpleadorComponent } from './Component/details-empleador/details-empleador.component';
-import { DetailEmpleadorComponent } from './Components/detail-empleador/detail-empleador.component';
+import { DetailsEmpleadorComponent } from './Components/details-empleador/details-empleador.component';
 
 
 @NgModule({
@@ -27,7 +26,6 @@ import { DetailEmpleadorComponent } from './Components/detail-empleador/detail-e
     PagePriComponent,
     DetailsComponent,
     DetailsEmpleadorComponent,
-    DetailEmpleadorComponent
   ],
   imports: [
     BrowserModule,

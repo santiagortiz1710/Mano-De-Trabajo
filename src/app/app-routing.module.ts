@@ -14,6 +14,7 @@ import { DetailsEmpleadorComponent } from './Components/details-empleador/detail
 
 
 
+
 const routes: Routes = [
   {path: 'Perfilempleador', component: PerfilEmpleadorComponent },
   {path: '', component:HomeComponent},
