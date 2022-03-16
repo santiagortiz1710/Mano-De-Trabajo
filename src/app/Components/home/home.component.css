@@ -272,13 +272,13 @@ background-color: bisqu;
     }
 
     #contact div{
-        background-color: ;
+        
         width: 420px;
         height: 240px;
         float: left;
         margin: 1.6rem;
     }
-    #contact div h2{
+    #contact div h2{                    
 
         font-family: TITLE;
         color: #56008c;
