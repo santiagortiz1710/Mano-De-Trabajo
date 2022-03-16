@@ -12,7 +12,8 @@
     display: flex;
 }
 .row{
-    width: 75rem; 
+    width: 75rem;
+    height: 20rem; 
      
 }
 
