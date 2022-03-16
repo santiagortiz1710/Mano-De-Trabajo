@@ -185,7 +185,7 @@ background-color: bisqu;
 width: 100%;
 height: 420px;
 background-color: violet;
-background-image: url(/src/app/Components/home/footer.png);
+background-image: url(../../../assets/footer.png);
 
     }
 
