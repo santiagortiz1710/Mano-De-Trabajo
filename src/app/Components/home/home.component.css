@@ -1,10 +1,10 @@
 @font-face {
     font-family: "TITLE";
-    src: url(/src/app/Components/home/FUENTES/aremat\ font.ttf);   
+    src: url(../../../assets/FUENTES/aremat\ font.ttf);   
 }
 @font-face {
     font-family: "BODY";
-    src: url(/src/app/Components/home/FUENTES/GOTHIC.TTF);   
+    src: url(../../../assets/FUENTES/GOTHIC.TTF);   
 }
 
 body{
